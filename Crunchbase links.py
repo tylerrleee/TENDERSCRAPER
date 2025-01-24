@@ -21,7 +21,7 @@ def initialize_driver():
 
     chrome_options = Options()
     chrome_options.add_argument(f"user-agent={user_agent}")
-    #chrome_options.add_argument("--headless")
+    #chrome_options.add_argument("--headless") # run in the background
     #chrome_options.add_argument("--no-sandbox")
     chrome_options.add_argument("--disable-dev-shm-usage")
 
@@ -209,12 +209,12 @@ def main():
     links = []
     failed_links = []
     data = []
-    base = "https://www.gebiz.gov.sg"  # Constant
-    test = "https://www.gebiz.gov.sg/ptn/opportunity/BOListing.xhtml?origin=menu"
+    base =  # Constant link e.g. www.youtube.com 
+    test = # follows after base
     driver.get(test)
 
     # Closed Tenders
-    xpath1 = "//input[@id='contentForm:j_idt800_TabAction_1']"
+    xpath1 = "//input[@id='contentForm:j_idt800_TabAction_1']" # specific element on the page to extract
     try:
         # Find the closed button
         closed_button = WebDriverWait(driver, 10).until(
