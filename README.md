@@ -2,7 +2,9 @@
 #  Blockchain & Emerging Tech Course + Consultant Scraper  
 ### Blockchain Association Singapore – Summer 2024
 
-This project was developed during my internship at **Blockchain Association Singapore (BAS)** to automate the extraction, cleaning, and organization of key data related to Singapore’s fintech and emerging tech ecosystem. It supported BAS in preparing for strategic outreach and presentations to consultants, educational institutions, and public-private partners (including a session with **Mercedes-Benz Singapore**).
+This project is one of the projects developed during my internship at **Blockchain Association Singapore (BAS)** in Summer 2024, to automate the extraction, cleaning, and organization of key data related to Singapore’s fintech and emerging tech ecosystem. It supported BAS in preparing for strategic outreach and presentations to RMC/CMC consultants, the Monetary Authority of Singapore, and blockchain Partners (including a session with **Mercedes-Benz Acentrik**).
+
+This scraper serves as a template/guideline for many other web extraction I did for the company.
 
 ##  Purpose
 
@@ -20,10 +22,6 @@ This project was developed during my internship at **Blockchain Association Sing
 | `Pandas` | Structure and analyze datasets |
 | `Excel Power Query` | Clean, deduplicate, and format data for internal team use |
 
-## Results
-
-###  MySkillsFuture Courses (Singapore’s public course platform)
-Scraped and cleaned data on 508 unique A.I., Blockchain, Web3, and Cybersecurity courses across major institutions (SMU, NUS, NTU, SUSS, SUTD), adjusting for delivery formats (on-site, hybrid, remote).
 
 ## Features
 
