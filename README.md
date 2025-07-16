@@ -12,7 +12,7 @@ This scraper serves as a template/guideline for many other web extraction I did 
 - **Build contact databases** for certified consultants from key accreditation bodies (e.g. TUV SUD, IMCS).
 - **Monitor open and closed government tender requests** related to digital innovation and technology.
 
-## ⚙Tech Stack
+## Tech Stack
 
 | Tool | Usage |
 |------|-------|
@@ -25,10 +25,10 @@ This scraper serves as a template/guideline for many other web extraction I did 
 
 ## Features
 
-- ✅ Scrapes from 10+ dynamic JavaScript and HTML sources
-- ✅ Handles duplicate entries, formats inconsistencies, and filters by course validity
-- ✅ Structures data for non-technical team members to use in Excel
-- ✅ Automates routine data gathering and turns manual work into a scalable pipeline
+- Scrapes from 10+ dynamic JavaScript and HTML sources
+- Handles duplicate entries, formats inconsistencies, and filters by course validity
+- Structures data for non-technical team members to use in Excel
+- Automates routine data gathering and turns manual work into a scalable pipeline
 
 ## Impact
 
